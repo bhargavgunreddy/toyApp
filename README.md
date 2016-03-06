@@ -6,5 +6,7 @@
      `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
     ----------------------------------------------------------------- 
 
+You can test application running at
 
-Welcome to your Node.js project on Cloud9 IDE!
+https://toy-bhargavgunreddy.c9users.io/index.html
+
