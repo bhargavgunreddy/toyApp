@@ -1,0 +1,5 @@
+/*ReactDOM.render(<app.itemsComp itemsList = {app.items.people} />, document.getElementById('toyApp'));*/
+
+/*ReactDOM.render(React.createElement(app.formComp, {urlVal: "http://", nick: "nick"}),
+                            document.getElementById('toyApp'));
+                            */

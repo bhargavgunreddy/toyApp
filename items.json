@@ -1,0 +1,25 @@
+{   
+    "People": [{
+                "itemName": "Mourinho",
+                "itemUrl": "http://lorempixel.com/400/200/"
+            },
+            {
+                "itemName": "Guardiola",
+                "itemUrl": "http://lorempixel.com/g/400/200/"
+            }],
+            
+    "Places": [{
+        "itemName": "Capri",
+        "itemUrl": "http://lorempixel.com/400/200/"
+    }],
+    
+    "Animals": [{
+        "itemName": "Lion",
+        "itemUrl": "http://lorempixel.com/400/200/sports/Dummy-Text/"
+    }],
+    
+    "Things": [{
+        "itemName": "Panamera",
+        "itemUrl": "http://lorempixel.com/400/200/sports/1/Dummy-Text/"
+    }]
+}

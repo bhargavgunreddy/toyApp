@@ -1,0 +1,120 @@
+html, body, .container {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+.container{
+    background-color: black;
+}
+
+.toyApp {
+    width: 100%;
+    height: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.tabDiv{
+    border: 1px solid red;
+    float: left;
+    padding: 1%;
+    margin-left: 1%;
+    width: 20%;  
+}
+
+.tabGroup {
+    width: 90%;
+    height: 20%;
+    float: left;
+    padding: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+    height: 20%;
+    border: 1px solid blue;
+    background-color: cornsilk;
+}
+
+.tabContent {
+    width: 88%;
+    height: 60%;
+    float: left;
+    padding: 2%;
+    margin-left: 4%;
+    border: 1px solid black;
+    background-color: darkgrey;
+}
+
+.gravatar {
+    width: 30%;
+    float: left;
+    background-color: #50d07d;
+        border: 1px solid black;
+}
+
+.leftPane {
+        width: 60%;
+    float: left;
+    background-color: #50d07d;
+    margin-right: 5%;
+        border: 1px solid black;
+}
+
+.itemClass {
+    padding: 1%;
+    width: 45%;
+    float: left;
+    margin: 1%;
+}
+
+.itemClass > img {
+    width: 100%;
+}
+
+.itemName {
+ font-size: 1.5em;
+    float: left;
+}
+
+.removeItem{
+    float: right;
+}
+
+.add {
+    margin: 3%;
+    width: 40%;
+    height: 12%;
+    font-size: 2em;
+}
+
+.banner {
+        font-size: 2em;
+    background-color: aquamarine;
+    font-family: cursive;
+}
+
+@media screen and (max-width: 700px) {
+    .leftPane {
+        width: 90%;
+        float: left;
+    }
+        
+    .gravatar {
+            width: 88%;
+    float: left;
+    
+    }
+    
+    .itemClass {
+        width: 80%;
+        float: left;
+    }
+    
+    .add {
+        width: 69%;
+    }
+}
