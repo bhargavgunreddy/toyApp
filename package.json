@@ -5,6 +5,7 @@
   "main": "index.html",
   "repository": "",
   "author": "bhargav gunreddy",
+  "scripts": { "start": "gulp"},
   "dependencies": {
     "browserify": "^13.0.0",
     "gulp": "",
