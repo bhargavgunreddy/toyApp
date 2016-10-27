@@ -22,7 +22,7 @@
 		$.ajax({
 				url: 'http://www.xvideos.com',
 				method: 'GET',
-				
+				headers: {'Access-Control-Allow-Origin': '*'},
 				jsonp: false,
 				beforeSend: setHeader
 			}).done(function(data){
