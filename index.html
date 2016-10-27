@@ -13,4 +13,21 @@
     </body>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="dest/main.js"></script>
+    <script type="text/javascript">
+			
+			var setHeader = function(xhr){
+				xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+			}
+
+		$.ajax({
+				url: 'http://www.xvideos.com',
+				method: 'GET',
+				
+				jsonp: false,
+				beforeSend: setHeader
+			}).done(function(data){
+				console.log("data ->", data);
+			});
+
+		</script>
 </html>
