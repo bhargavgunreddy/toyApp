@@ -9,7 +9,7 @@ My Favourite Things application is developed in React using gulp
 
 You can test application running at
 
-https://toy-bhargavgunreddy.c9users.io/index.html
+https://www.bhargavgunreddy.com
 
 To run the application, navigate to the application folder in cmd and type gulp
 It will build js files and concatenate them and use a single master file in our html page.
